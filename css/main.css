@@ -1,0 +1,220 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@font-face {
+    font-family: "Avenir Medium";
+    src:url(../fonts/Avenir-Medium.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "Avenir Black";
+    src:url(../fonts/Avenir-Black.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "Avenir Book";
+    src:url(../fonts/Avenir-Book.ttf) format("truetype");
+}
+
+html, body {
+	padding: 0;
+	margin: 0;
+	font-family: "Helvetica";
+	overflow-x: hidden;
+	overflow-y: scroll;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+
+
+/*---NAV---*/
+
+#nav {
+	font-family:"Avenir Medium";
+	font-size: 11px;
+	background-color: white;
+	height:100%;
+	width:250px;
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	padding-left: 75px;
+	padding-top: 70px;
+	
+}
+
+#logo{
+	cursor: pointer;
+	background-color: white;
+	background-image: url(../images/thumbs/theghostof/theghostof_logo_black.png);
+	background-repeat: no-repeat;
+  	background-size: contain;
+	left: 32px;
+	top: 22px;
+	width: 30px;
+	height: 30px;
+	position:absolute;
+}
+
+#title{
+	cursor: pointer;
+	font-family: "Avenir Black";
+	top: 30px;
+	left: 75px;
+	font-size: 13px;
+	background-color: white;
+	width: 150px;
+	height: 20px;
+	position:absolute;
+}
+
+#projects {
+	background-color: white;
+	cursor: pointer;
+	font-size: 11px;
+	line-height: 20px;
+	width: 80px;
+}
+
+#illustration {
+	
+}
+
+#illsubcats{
+	display: none;
+}
+
+#theghostof {
+	
+}
+
+#sketchbook {
+	
+}
+
+#animation {
+
+}
+
+#anisubcats{
+	display: none;
+}
+
+#fogtown {
+	
+}
+
+#commissioned {
+	font-family: "Avenir Black";
+}
+
+#social {
+	background-color: white;
+	line-height: 20px;
+	padding-top: 20px;
+}
+
+#contact {
+	padding-top:20px;
+	background-color: white;
+}
+
+/*---NAV---*/
+
+/*---THUMBS---*/
+
+#thumbnails {
+	position: absolute;
+	top: 0;
+	left: 0px;
+	right: 250px;
+	bottom: 0;
+	height: 100%;
+	width: calc(100% - 250px);
+	margin-left: 250px;
+	margin-bottom:0px;
+	box-sizing: border-box;
+	display: inline-block;
+	
+	
+}
+
+#fullsize {
+	position: absolute;
+	top: 0;
+	left: 0px;
+	right: 250px;
+	bottom: 0;
+	height: 100%;
+	width: calc(100% - 250px);
+	margin-left: 250px;
+	margin-bottom:0px;
+	box-sizing: border-box;
+	display: none;
+	
+}
+
+.full{
+	display: inline-block;
+    width: 60%;
+	margin-bottom: -4px;
+	margin-top: 30px;
+	margin-left: 30px;
+	
+}
+
+.posterfull{
+	max-width: 400px; 
+}
+
+.thumb{
+	display: inline-block;
+    width: 25%;
+	margin-bottom: -4px;
+	
+}
+
+img {
+	width: 100%;
+	margin:auto;
+}
+
+.hidden{
+	display:none;
+}
+/*.commissioned{
+	display:none;
+	}*/
+
+
+
+@media (max-width:1000px) {
+
+	.thumb {
+		width: 33.33%;
+	}
+
+}
+
+@media (max-width:700px) {
+
+	.thumb {
+		width: 50%;
+	}
+
+}
+
+@media (max-width:500px) {
+
+	.thumb {
+		width: 100%;
+	}
+
+}
+
+
+
